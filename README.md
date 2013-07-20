@@ -67,12 +67,14 @@ basead = 'http://nealshyam.com/scroll/iab.gif';
 baseurl = 'http://www.google.com';
 
 $(document).ready(function(){
-  $(".adbox").mouseleave(function(){
+	$(".adbox").mouseleave(function(){
 		$(this).html('<p>advertisement</p><a href="'+mouseurl+'" target="_blank"><img src="'+mousead+'"></a>');		
 	});
+	
 	$(".adbox").mousewheel(function(objEvent, delta){			  
 		$(this).html('<p>advertisement</p><a href="'+scrollurl+'" target="_blank"><img src="'+scrollad+'"></a>');		
-	});	
+	});
+	
 	// comment out previous two statements and enable bottom statement to make ads 'always on'
 	//$(".adbox").html('<p>advertisement</p><a href="'+baseurl+'" target="_blank"><img src="'+basead+'"></a>');		
 });
