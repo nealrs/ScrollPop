@@ -1,5 +1,5 @@
 #ScrollPop
-ScrollPop is a small set of JS/PHP/CSS/HTML snippets which insert ads into the comment roll of your self-hosted WordPress blog. However, these are no normal ads. Ads are triggered only when you <strong>mouse or scroll through the comment roll. This reduces page weight, combats ad-blindness, and helps you monetize user generated content.
+ScrollPop is a small set of JS/PHP/CSS/HTML snippets which insert ads into the comment roll of your self-hosted WordPress blog. However, these are no normal ads. Ads are triggered only when you mouse or scroll through the comment roll. This reduces page weight, combats ad-blindness, and helps you monetize user generated content.
 
 My first experiment with jQuery, I developed ScrollPop in July of 2010 while I was interning at Entertainment Weekly. ScrollPop also incorporates [Brandon Aaron](http://brandonaaron.net/)'s [jQuery.mousewheel plugin](https://github.com/brandonaaron/jquery-mousewheel)
 
