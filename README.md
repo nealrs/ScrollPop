@@ -6,7 +6,7 @@ As my first experiment in jQuery/WP hacking, I developed ScrollPop in July of 20
 ScrollPop is freely available under the MIT license.
 
 ##Demo 
-There is a live demo of both mouse & scroll triggers available [here](http://stoutandporter.com). Additionally, the [AudioShocker Podcast](http://www.audioshocker.com) uses ScrollPop, (always on, no trigger), to power both frontpage merchandise ads and comment-roll promotions for several independent webcomics.
+There is a live demo of both mouse & scroll triggers [here](http://www.stoutandporter.com/2010/07/14/cascabel-taqueria/#comments). Additionally, the [AudioShocker Podcast](http://www.audioshocker.com) uses ScrollPop, (always on, no trigger), to power both frontpage merchandise ads and comment-roll promotions for several independent webcomics.
 
 ##Installation
 To enable ScrollPop ads on your WP blog:
