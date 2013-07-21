@@ -1,7 +1,7 @@
 #ScrollPop
-ScrollPop is a small set of JS/PHP/CSS/HTML snippets which insert ads into the comment roll of your self-hosted WordPress blog. However, these are no normal ads. Ads are triggered only when you mouse or scroll through the comment roll. This reduces page weight, combats ad-blindness, and helps you monetize user generated content.
+ScrollPop is a small set of JS/PHP/CSS/HTML snippets which insert ads into the comment roll of your self-hosted WordPress blog. However, these aren't your run of the mill display ads. Ads are triggered only when you mouse or scroll through the comment roll. This reduces page weight, combats ad-blindness, improves accuracy of impressions, and helps you monetize user generated content.
 
-My first experiment with jQuery, I developed ScrollPop in July of 2010 while I was interning at Entertainment Weekly. ScrollPop also incorporates [Brandon Aaron](http://brandonaaron.net/)'s [jQuery.mousewheel plugin](https://github.com/brandonaaron/jquery-mousewheel).
+As my first experiment with jQuery/WP hacking, I developed ScrollPop in July of 2010 while I was interning at Entertainment Weekly. ScrollPop also incorporates [Brandon Aaron](http://brandonaaron.net/)'s [jQuery.mousewheel plugin](https://github.com/brandonaaron/jquery-mousewheel).
 
 ScrollPop is freely available under the MIT license.
 
@@ -15,7 +15,7 @@ To enable ScrollPop ads on your WP blog:
 2. Copy the css/js includes into the head block of your [header.php](#headerphp) file. 
 3. Create and upload [sp.css](#spcss) & [sp.js](#spjss) to your theme's root directory.
 4. Edit [sp.js](#spcss) with your desired ad creative & URLs.
-5. [optional] Edit the php snippet in [comments.php](#commentsphp) to change the frequency of the ads, (default is 1 every 5).
+5. [optional] Edit [comments.php](#commentsphp) to adjust the ad frequency, (default is 1 every 5 comments).
 
 ###comments.php
 Place after .postcomment div, and before $comment_number++ statement at end of each comment.
