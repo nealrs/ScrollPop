@@ -13,8 +13,8 @@ To enable ScrollPop ads on your WP blog:
  
 1. Copy and paste the php snippet into [comments.php](#commentsphp) file where noted.
 2. Copy the css/js includes into the head block of your [header.php](#headerphp) file. 
-3. Create and upload [sp.css](#spcss) & [sp.js](#spjss) to your theme's root directory.
-4. Edit [sp.js](#spcss) with your desired ad creative & URLs.
+3. Create and upload [sp.css](#spcss) & [sp.js](#spjs) to your theme's root directory.
+4. Edit [sp.js](#spjs) with your desired ad creative & URLs.
 5. [optional] Edit [comments.php](#commentsphp) to adjust the ad frequency, (default is 1 every 5 comments).
 
 ###comments.php
