@@ -25,7 +25,7 @@ Place after .postcomment div, and before $comment_number++ statement at end of e
   $ad_frequency = 5;
 	if ($comment_number % $ad_frequency == 0){
 		$num_iterations = $comment_number / $ad_frequency;
-		echo "<div class= 'adclear'></div><div class='adbox' id='adbox$num_iterations'><p>advertisement</p></div>";
+		echo "<div class= 'adclear'></div><div class='adbox'><p>advertisement</p></div>";
 	}
 ?>
 ```
